@@ -57,16 +57,16 @@ function HighJump(score, nextFunction){
     let isEventCancelled = false;
     switch (person) {
         case "red":
-            score.red += 150;
+            score.red += 100;
             break;
         case "blue":
-            score.blue += 150;
+            score.blue += 100;
             break;
         case "green":
-            score.green += 150;
+            score.green += 100;
             break;
         case "yellow":
-            score.yellow += 150;
+            score.yellow += 100;
             break;
         default:
             console.log("Event was cancelled");
